@@ -1,0 +1,113 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "product": "Cronium",
+    "version": "1.0.0",
+    "targetDevice": "iPhone 15",
+    "frameWidth": 432,
+    "frameHeight": 804,
+    "outerShellWidth": 448,
+    "outerShellHeight": 820,
+    "compatibleWith": ["Figma Variables", "Tokens Studio for Figma", "Tailwind CSS v4"]
+  },
+  "color": {
+    "brand": {
+      "primary": { "$value": "#6C3BF5", "$type": "color", "$description": "Primary CTA, verified brand badges, active pills" },
+      "primaryHover": { "$value": "#5B2DE0", "$type": "color" },
+      "indigo": { "$value": "#4F46E5", "$type": "color", "$description": "Secondary brand accent, links, active nav icons" },
+      "violet": { "$value": "#633EF5", "$type": "color", "$description": "Hero gradient start" },
+      "sky": { "$value": "#0EA5E9", "$type": "color", "$description": "Hero gradient end" },
+      "ycOrange": { "$value": "#F26522", "$type": "color", "$description": "Y Combinator brand tile" },
+      "a16zObsidian": { "$value": "#0F1117", "$type": "color", "$description": "Andreessen Horowitz brand tile" }
+    },
+    "surface": {
+      "canvasLight": { "$value": "#F5F8FF", "$type": "color", "$description": "Primary app canvas background" },
+      "cardLight": { "$value": "#FFFFFF", "$type": "color", "$description": "Primary card & modal surface" },
+      "subtleLight": { "$value": "#F8FAFC", "$type": "color", "$description": "Segmented control & secondary containers" },
+      "canvasDark": { "$value": "#020617", "$type": "color", "$description": "Dark mode primary canvas" },
+      "cardDark": { "$value": "#0F172A", "$type": "color", "$description": "Dark mode card & modal surface" },
+      "subtleDark": { "$value": "#1E293B", "$type": "color", "$description": "Dark mode secondary surface" }
+    },
+    "text": {
+      "primary": { "$value": "#0F172A", "$type": "color" },
+      "secondary": { "$value": "#475569", "$type": "color" },
+      "muted": { "$value": "#64748B", "$type": "color" },
+      "eyebrow": { "$value": "#94A3B8", "$type": "color" },
+      "inverse": { "$value": "#FFFFFF", "$type": "color" }
+    },
+    "border": {
+      "default": { "$value": "#E2E8F0", "$type": "color" },
+      "subtle": { "$value": "#F1F5F9", "$type": "color" },
+      "darkDefault": { "$value": "#1E293B", "$type": "color" }
+    },
+    "semantic": {
+      "verifiedBg": { "$value": "#E8FBF0", "$type": "color" },
+      "verifiedText": { "$value": "#059669", "$type": "color" },
+      "online": { "$value": "#10B981", "$type": "color" },
+      "away": { "$value": "#F59E0B", "$type": "color" },
+      "alert": { "$value": "#F43F5E", "$type": "color" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "display": { "$value": "Plus Jakarta Sans", "$type": "fontFamily" },
+      "hero": { "$value": "Outfit", "$type": "fontFamily" },
+      "mono": { "$value": "ui-monospace, SFMono-Regular, Menlo, monospace", "$type": "fontFamily" }
+    },
+    "scale": {
+      "eyebrow": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "11px", "fontWeight": "600", "lineHeight": "1.0", "letterSpacing": "0.09em", "textTransform": "uppercase" }
+      },
+      "heroGreeting": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "24px", "fontWeight": "800", "lineHeight": "1.16", "letterSpacing": "-0.03em" }
+      },
+      "sectionTitle": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "18px", "fontWeight": "800", "lineHeight": "1.25", "letterSpacing": "-0.02em" }
+      },
+      "cardTitle": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "15px", "fontWeight": "700", "lineHeight": "1.35", "letterSpacing": "-0.01em" }
+      },
+      "body": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "13px", "fontWeight": "400", "lineHeight": "1.55" }
+      },
+      "meta": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "12px", "fontWeight": "500", "lineHeight": "1.4" }
+      },
+      "micro": {
+        "$type": "typography",
+        "$value": { "fontFamily": "Plus Jakarta Sans", "fontSize": "10.5px", "fontWeight": "600", "lineHeight": "1.2" }
+      }
+    }
+  },
+  "spacing": {
+    "1": { "$value": "4px", "$type": "dimension" },
+    "2": { "$value": "8px", "$type": "dimension" },
+    "3": { "$value": "12px", "$type": "dimension" },
+    "4": { "$value": "16px", "$type": "dimension" },
+    "5": { "$value": "20px", "$type": "dimension" },
+    "6": { "$value": "24px", "$type": "dimension" }
+  },
+  "borderRadius": {
+    "deviceOuter": { "$value": "40px", "$type": "dimension" },
+    "modal": { "$value": "32px", "$type": "dimension" },
+    "cardLarge": { "$value": "26px", "$type": "dimension" },
+    "card": { "$value": "24px", "$type": "dimension" },
+    "banner": { "$value": "16px", "$type": "dimension" },
+    "control": { "$value": "12px", "$type": "dimension" },
+    "pill": { "$value": "9999px", "$type": "dimension" }
+  },
+  "zIndex": {
+    "base": { "$value": 0, "$type": "number" },
+    "stickyHeader": { "$value": 30, "$type": "number" },
+    "floatingToast": { "$value": 40, "$type": "number" },
+    "profileAndEventsModal": { "$value": 50, "$type": "number" },
+    "hashtagAndBrandPage": { "$value": 60, "$type": "number" },
+    "postCommentsModal": { "$value": 70, "$type": "number" }
+  }
+}
